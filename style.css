@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.7;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.05rem;
+}
+
+nav a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2px;
+  transition: border-color 0.2s ease;
+}
+
+nav a:hover {
+  border-color: #000;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #eee;
+  font-weight: 500;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-color: #000;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  border-top: 1px solid #eee;
+}
